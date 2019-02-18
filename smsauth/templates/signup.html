@@ -1,0 +1,13 @@
+There is suppossed to be a form and some details<br><br>
+<form class="" action="" method="post">
+  {% csrf_token %}
+    {{ form }}
+    <button type="submit" name="button">Save</button>
+</form>
+
+
+{% for each in details %}
+<br>{{ each.username }}<br>
+{{ each.phone }}<br>
+{{ each.password }}<br>
+{% endfor %}
