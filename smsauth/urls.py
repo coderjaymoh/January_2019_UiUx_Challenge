@@ -6,4 +6,5 @@ from .views import register, verifyUser
 urlpatterns = [
     path('', views.register, name='register'),
     path('validation/', views.verifyUser, name='verifyUser'),
+    path('signupsuccess/', views.signupsuccess, name='signupsuccess'),
 ]

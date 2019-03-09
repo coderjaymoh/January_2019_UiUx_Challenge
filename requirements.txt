@@ -1,2 +1,11 @@
-Django==2.1.5
+africastalking==1.1.5
+certifi==2018.11.29
+chardet==3.0.4
+contextlib2==0.5.5
+Django==2.1.7
+idna==2.8
+pkg-resources==0.0.0
 pytz==2018.9
+requests==2.21.0
+schema==0.7.0
+urllib3==1.24.1
